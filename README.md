@@ -1,5 +1,3 @@
-# explorer-menu
-
 # Projeto da RocketSeat.
 ## Explorer - Cardápio online
 
