@@ -1,0 +1,75 @@
+:root{
+  --coffee-color-primary: hsl(40, 3%, 17%);
+  --coffee-color-brown: hsl(31, 99%, 30%);
+  --coffee-color-blackOp: hsla(0, 0%, 0%, 0.6);
+  --coffee-color-background: hsl(34, 100%, 92%);
+  --coffee-color-h2: hsl(32, 98%, 83%);
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: var(--coffee-color-background);
+  color: var(--coffee-color-primary);
+
+  font-family: 'Roboto Serif';
+}
+
+p{
+  font-family: 'Roboto';
+}
+
+.wrapper{
+  width: 18.75rem;
+  margin-inline: auto;
+}
+/*=====================HEADER=====================*/
+.wrapper header{
+  text-align: center;
+  padding-block: 2rem;
+}
+.wrapper header h1{
+  text-transform: uppercase;
+}
+.wrapper header h1 .coffee{
+  color: var(--coffee-color-brown);
+}
+
+/*=====================SECTIONS=====================*/
+section h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+
+  background-color: var(--coffee-color-h2);
+}
+
+.menu{
+  margin-block: 1.5rem;
+}
+.menu li{  
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+.menu .details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu .details h3, .price{
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.menu li p{
+  font-size: 0.875rem;
+  line-height: 1.35rem;
+}
