@@ -40,7 +40,7 @@ p{
 }
 
 /*=====================SECTIONS=====================*/
-section h2{
+section h2, .order{
   text-align: center;
   text-transform: uppercase;
   font-size: 1.125rem;
@@ -71,4 +71,26 @@ section h2{
 .menu li p{
   font-size: 0.875rem;
   line-height: 1.35rem;
+}
+
+/*====================ORDER BUTTON==================*/
+
+.order{
+  font-family: 'Roboto Serif';
+  background-color: var(--coffee-color-background);
+  color: var(--coffee-color-brown);
+
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1.5rem;
+
+  border: solid 0.16rem;
+  border-radius: 0.2rem;
+
+  transition: 0.2s all linear;
+}
+.order:hover, .order:active{
+  background-color: var(--coffee-color-brown);
+  color: var(--coffee-color-background);
+  border-color: transparent;
 }
