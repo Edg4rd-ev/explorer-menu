@@ -88,6 +88,8 @@ section h2, .order{
   border-radius: 0.2rem;
 
   transition: 0.2s all linear;
+
+  text-decoration: none;
 }
 .order:hover, .order:active{
   background-color: var(--coffee-color-brown);
