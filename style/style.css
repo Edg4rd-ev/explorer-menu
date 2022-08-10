@@ -24,8 +24,8 @@ p{
 }
 
 .wrapper{
-  width: 18.75rem;
-  margin-inline: auto;
+  max-width: 18.75rem;
+  margin: 0 auto;
 }
 /*=====================HEADER=====================*/
 .wrapper header{
