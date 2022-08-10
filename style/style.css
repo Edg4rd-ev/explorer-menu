@@ -30,7 +30,7 @@ p{
 /*=====================HEADER=====================*/
 .wrapper header{
   text-align: center;
-  padding-block: 2rem;
+  padding: 2rem 0;
 }
 .wrapper header h1{
   text-transform: uppercase;
@@ -45,14 +45,13 @@ section h2{
   text-transform: uppercase;
   font-size: 1.125rem;
 
-  padding-block: 0.5rem;
-  padding-inline: 1rem;
+  padding: 0.5rem 1rem;
 
   background-color: var(--coffee-color-h2);
 }
 
 .menu{
-  margin-block: 1.5rem;
+  margin: 1.5rem 0;
 }
 .menu li{  
   list-style-type: none;
